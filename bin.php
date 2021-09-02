@@ -1,11 +1,4 @@
 <?php
-###############
-/*
-تغير الحقوق يثبت فشلك
-by:- @x_q_9
-#######$$$########
-/*
-
 $admin = "id";
 define('API_KEY','token');
 echo file_get_contents("https://api.telegram.org/bot".API_KEY."/setwebhook?url=".$_SERVER['SERVER_NAME']."".$_SERVER['SCRIPT_NAME']);
